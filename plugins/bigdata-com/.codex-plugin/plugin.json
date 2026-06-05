@@ -1,7 +1,7 @@
 {
-  "name": "bigdata.com",
+  "name": "bigdata-com",
   "version": "1.0.0",
-  "description": "Bigdata.com brings institutional research infrastructure to ChatGPT: SEC filings, earnings transcripts, broker research, financial statements and estimates, sentiment signals, macro data, and premium news. RavenPack's financial knowledge graph resolves entities and grounds every claim in a source citation. Ask in plain language — build an initiation report, compare two 10-Ks, run a pre-FOMC briefing. Built for analysts at hedge funds, asset managers, and investment banks.",
+  "description": "Bigdata.com brings institutional research infrastructure: SEC filings, earnings transcripts, broker research, financial statements and estimates, sentiment signals, macro data, and premium news. RavenPack's financial knowledge graph resolves entities and grounds every claim in a source citation. Ask in plain language — build an initiation report, compare two 10-Ks, run a pre-FOMC briefing. Built for analysts at hedge funds, asset managers, and investment banks.",
   "author": {
     "name": "RavenPack",
     "url": "https://ravenpack.com"
@@ -9,7 +9,19 @@
   "homepage": "https://bigdata.com",
   "repository": "https://github.com/openai/plugins",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "finacial",
+    "news",
+    "data",
+    "AI",
+    "finance",
+    "equity-research",
+    "earnings",
+    "research",
+    "portfolio",
+    "thematic",
+    "basket"
+  ],
   "apps": "./.app.json",
   "interface": {
     "displayName": "Bigdata.com",
@@ -19,10 +31,12 @@
     "category": "Financial Markets",
     "capabilities": [],
     "websiteURL": "https://bigdata.com",
+    "privacyPolicyURL": "https://bigdata.com/privacy-policy",
+    "termsOfServiceURL": "https://bigdata.com/terms-and-conditions",
     "defaultPrompt": [
-      "Bigdata, Summarize recent developments for CoreWeave (last 30 days). Categories: Financial results; Product/tech launches; M&A and partnerships; Regulatory/legal updates; Management changes; Other material events. For each, provide the date, the facts, and investment implications (bullish/bearish/neutral).",
-      "Bigdata, I want a report on buyback announcements and events at US companies over the last two months. I want to get dates, the amount specified in the filing, and the reason given by the company.",
-      "Bigdata, You are a Discretionary financial research analyst. Can you create a sell-side report on quantum computing and quantum chip manufacturing? I want to understand which private and public companies offer solutions, conduct research, and how many patents they have. If it is a public company, please analyze its fundamentals over the last 6 quarters. Use bigdata and add inline attributions. Thanks!"
+      "Using Bigdata, Summarize recent developments for CoreWeave (last 30 days). Categories: Financial results; Product/tech launches; M&A and partnerships; Regulatory/legal updates; Management changes; Other material events. For each, provide the date, the facts, and investment implications (bullish/bearish/neutral).",
+      "Using Bigdata, I want a report on buyback announcements and events at US companies over the last two months. I want to get dates, the amount specified in the filing, and the reason given by the company.",
+      "Using Bigdata, You are a Discretionary financial research analyst. Can you create a sell-side report on quantum computing and quantum chip manufacturing? I want to understand which private and public companies offer solutions, conduct research, and how many patents they have. If it is a public company, please analyze its fundamentals over the last 6 quarters. Use bigdata and add inline attributions. Thanks!"
     ],
     "brandColor": "#121212",
     "composerIcon": "./assets/logo.png",
